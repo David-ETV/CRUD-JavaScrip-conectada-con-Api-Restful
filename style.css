@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.containerMenu{
+    position: relative;
+    top: 2rem;
+    width: 80%;
+    height: 10rem;
+    background: rgba(13, 13, 14, 0.897);
+    backdrop-filter: blur(15px);
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    
+    color: #cc9c25b8;
+}
+.table-bordered>:not(caption)>*{
+    border: none;
+}
